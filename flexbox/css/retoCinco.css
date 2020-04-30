@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header {
+  background-color: blanchedalmond;
+  flex: 1 1 20vh;
+}
+
+main {
+  background-color: darkgray;
+  flex: 1 2 200vh;
+}
+
+footer {
+  background-color: darkorange;
+
+  flex: 1 1 20vh;
+}

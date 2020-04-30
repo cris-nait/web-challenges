@@ -1,0 +1,78 @@
+/* Global */
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body * {
+  max-width: 840px;
+}
+/*Container*/
+.container {
+  width: 100%;
+  padding: 1em;
+  height: 20vh;
+  display: flex;
+  background-color: #eeeeee;
+}
+/*Left*/
+#left {
+  width: 100px;
+  height: 100px;
+}
+
+/*Middle*/
+#middle {
+  padding-left: 2em;
+  max-height: 100px;
+  font-size: 10px;
+  flex: 12 10 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#middle #buttons #button-2 {
+  background: none;
+  border: 1px solid black;
+}
+#middle #buttons #button-1 {
+  background: #c4c2c2;
+  border: 1px solid black;
+}
+
+/*Right*/
+#right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100px;
+  max-height: 100px;
+  flex: 1 0 30%;
+}
+
+#right #elements {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  justify-content: space-between;
+}
+#right #valoraciones {
+  width: 100%;
+  padding: 1em;
+  text-align: right;
+  padding: 1%;
+  font-size: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+#right #valoraciones a {
+  font-size: 10px;
+}
+#right #star {
+  max-width: 30px;
+  max-height: 30px;
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  background-color: maroon;
+  color: antiquewhite;
+}
+
+#block div {
+  display: block;
+}
+
+#inlineblock div {
+  display: inline-block;
+}
+
+#inline div {
+  display: inline;
+}
+
+#none div {
+  display: none;
+}

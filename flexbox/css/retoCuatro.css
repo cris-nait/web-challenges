@@ -1,0 +1,21 @@
+body {
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 20px;
+}
+
+.container .new-five {
+  order: -1;
+  width: 100%;
+  height: 300px;
+}
+.container .new-two,
+.container .new-three,
+.container .new-four,
+.container .new-one {
+  height: 300px;
+  max-width: 49%;
+}

@@ -1,0 +1,11 @@
+h1 {
+    color:black;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #f3f4f5;
+}
+p,ul,ol{
+    color: #757575;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}

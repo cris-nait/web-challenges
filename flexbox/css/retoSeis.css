@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+body * {
+  text-align: center;
+  max-width: 960px;
+  width: 100%;
+}
+header {
+  background-color: #db3333;
+}
+
+section {
+  display: flex;
+}
+
+section #left {
+  background-color: #f3e565;
+  flex: 1 2 50%;
+}
+section #middle {
+  background-color: #5ea9ff;
+  flex: 2 1 100%;
+}
+section #right {
+  background-color: #ff73ec;
+  flex: 1 2 50%;
+}
+
+footer {
+  background-color: rgb(191, 255, 128);
+}
