@@ -1,0 +1,10 @@
+#cookies {
+  height: 100px;
+  width: 100%;
+  background-color: gold;
+  position: fixed;
+  bottom: 0;
+}
+section {
+  padding: 6rem;
+}

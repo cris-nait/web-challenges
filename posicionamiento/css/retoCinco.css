@@ -1,0 +1,36 @@
+#box-1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: #ffff85;
+  padding: 40px;
+  border: 2px solid black;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#box-2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: forestgreen;
+  padding: 75px;
+}
+#box-3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: dodgerblue;
+  border: 20px dotted black;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

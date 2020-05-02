@@ -1,0 +1,8 @@
+div {
+  padding: 2rem 3rem;
+  color: white;
+  background-color: firebrick;
+  position: fixed;
+  right: 0;
+  bottom: 0%;
+}

@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  font-size: 1.5rem;
+  min-width: 500px;
+  height: 2rem;
+  border-bottom: 1px solid lightslategrey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: lightslategrey;
+  text-decoration: none;
+  justify-content: space-between;
+}
+a p {
+  height: 80%;
+  font-size: 1rem;
+  border-radius: 2px;
+  background-color: maroon;
+  color: white;
+  text-decoration: none;
+}
