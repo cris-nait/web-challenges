@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b4b4b4;
+}
+header {
+  background-color: #b4b4b4;
+  font-size: 2rem;
+  width: 100%;
+  height: 3rem;
+  font-weight: bolder;
+}
+header p {
+  margin: 0;
+}
+#aside-left {
+  display: flex;
+  flex-direction: column;
+  background-color: #1cc41c;
+}
+main {
+  background-color: yellow;
+}
+main div {
+  display: flex;
+}
+main div div {
+  display: none;
+  background-color: orange;
+  min-width: 200px;
+  width: 100%;
+}
+main h1 {
+  margin: 0;
+}
+#aside-right {
+  background-color: grey;
+}
+
+@media all and (min-width: 480px) {
+  #container {
+    height: 100vh;
+    display: flex;
+    margin-right: 2rem;
+  }
+  main div div {
+    flex: 2 10 0;
+    display: block;
+    margin-bottom: 2rem;
+    max-height: 300px;
+    height: auto;
+  }
+  main div p {
+    flex: 2 2 0;
+  }
+  #aside-left {
+    height: min-content;
+    margin-right: 2rem;
+    min-width: 20vw;
+  }
+  #aside-right h2 {
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  #container div {
+    display: flex;
+  }
+  main {
+    max-width: 60vw;
+    margin-right: 2rem;
+    height: fit-content;
+  }
+  #aside-right {
+    width: 300px;
+    height: fit-content;
+  }
+}
