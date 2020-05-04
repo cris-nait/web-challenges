@@ -9,7 +9,7 @@
   <body>
     <form action="">
       <label for="name">Name</label>
-      <input type="text" name="name" id="name" placeholder="Bill" />
+      <input type="text" name="name" id="name" placeholder="Bill" required />
       <label for="lastname">Last name</label>
       <input type="text" name="lastname" id="lastname" placeholder="Gates" />
       <label for="email">Email</label>
@@ -18,6 +18,7 @@
         name="email"
         id="email"
         placeholder="example@mail.com"
+        required
       />
       <label for="adress">Adress</label>
       <input
@@ -25,9 +26,17 @@
         name="adress"
         id="adress"
         placeholder="San Juan con la 80"
+        required
       />
       <label for="city">City</label>
-      <input type="text" name="city" id="city" placeholder="Medellin" />
+      <input
+        value="Madrid"
+        type="text"
+        name="city"
+        id="city"
+        placeholder="Medellin"
+        required
+      />
       <label
         for="
     province"
@@ -39,15 +48,41 @@
         name="province"
         id="province"
         placeholder="Antioquia"
+        required
       />
       <label for="country">Country</label>
-      <input type="text" name="country" id="country" placeholder="Colombia" />
+      <input
+        value="España"
+        type="text"
+        name="country"
+        id="country"
+        placeholder="Colombia"
+        required
+      />
       <label for="dni">DNI</label>
-      <input type="number" name="dni" id="dni" placeholder="123456789" />
+      <input
+        type="number"
+        name="dni"
+        id="dni"
+        placeholder="123456789"
+        required
+      />
       <label for="phone">Phone</label>
-      <input type="number" name="phone" id="phone" placeholder="4552032" />
+      <input
+        type="number"
+        name="phone"
+        id="phone"
+        placeholder="4552032"
+        required
+      />
       <label for="pass">Password</label>
-      <input type="text" name="pass" id="pass" placeholder="*********" />
+      <input
+        type="text"
+        name="pass"
+        id="pass"
+        placeholder="*********"
+        required
+      />
       <label
         for="
       confirmpass"
@@ -59,6 +94,7 @@
         name="confirmpass"
         id="confirmpass"
         placeholder="************"
+        required
       />
       <button type="submit">Submit</button>
     </form>

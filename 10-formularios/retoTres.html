@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/retoTres.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Create an acccount</h1>
+      <h2>It's free and always will be.</h2>
+      <form action="" id="formcontainer">
+        <div id="accountdata">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="First name"
+            required
+          />
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Surname"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email or mobile number"
+            required
+          />
+          <input
+            type="email"
+            name="confirmemail"
+            id="confirmemail"
+            placeholder="Re-enter email or mobile number"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="New password"
+            required
+          />
+        </div>
+        <div id="birthday">
+          <label for="birthday"
+            >Birthday
+            <input type="date" name="birthday" id="birthday" /> </label
+          ><a href="#">Why do i need to provide my date of birth?</a>
+        </div>
+        <div id="gender">
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+        </div>
+        <input
+          type="hidden"
+          id="currentnavigator"
+          name="currentnavigator"
+          value="Chrome"
+        />
+        <textarea name="textarearea" id="" cols="30" rows="10"></textarea>
+        <button type="submit">Create an account</button>
+      </form>
+    </div>
+  </body>
+</html>

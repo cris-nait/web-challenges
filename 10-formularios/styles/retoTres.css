@@ -1,0 +1,102 @@
+body {
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container {
+  padding: 1rem;
+  max-width: 400px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(0, 0, 0, 0.24)));
+  background: linear-gradient(180deg, white 0%, rgba(0, 0, 0, 0.24) 100%);
+}
+
+#container h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+#container h2 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+}
+
+#container #formcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#container #formcontainer #accountdata {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "name surname" "email email" "confirmemail confirmemail" "password password";
+  grid-gap: 10px 0;
+}
+
+#container #formcontainer #accountdata input {
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  padding: 0.5em;
+  font-size: 1.1rem;
+}
+
+#container #formcontainer #accountdata #name {
+  margin-right: 10px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: name;
+}
+
+#container #formcontainer #accountdata #surname {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: surname;
+}
+
+#container #formcontainer #accountdata #email {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: email;
+}
+
+#container #formcontainer #accountdata #confirmemail {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: confirmemail;
+}
+
+#container #formcontainer #accountdata #password {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: password;
+}
+/*# sourceMappingURL=retoTres.css.map */
