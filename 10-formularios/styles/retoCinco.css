@@ -1,0 +1,64 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form-container fieldset {
+  margin: 0;
+  padding: 2rem;
+}
+
+#form-container fieldset label {
+  font-weight: bold;
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#form-container fieldset label input, #form-container fieldset label select {
+  padding: 0.5rem;
+  height: 1rem;
+  margin: 2px 0;
+}
+
+#form-container fieldset label select {
+  height: 2.5rem;
+}
+
+#form-container fieldset label #block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#form-container fieldset .btn {
+  margin: 1rem 0 1rem 70%;
+  border-radius: 3px;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  background-color: dodgerblue;
+}
+/*# sourceMappingURL=retoCinco.css.map */

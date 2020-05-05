@@ -60,6 +60,9 @@ body {
 }
 
 #container #formcontainer #accountdata input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border: 1px solid lightgrey;
   border-radius: 6px;
   padding: 0.5em;
@@ -104,8 +107,8 @@ body {
   padding: 0.5rem 0;
 }
 
-#container #formcontainer .btnsubmit {
-  max-width: 70%;
+#container #formcontainer .btnsubmit, #container #formcontainer .btnreset {
+  max-width: 50%;
   margin: 0.5em 0;
   font-weight: bold;
   -webkit-box-shadow: 36px 33px 60px -50px rgba(0, 0, 0, 0.57);
@@ -118,7 +121,7 @@ body {
   font-size: 1.1rem;
 }
 
-#container #formcontainer .btnsubmit:hover {
+#container #formcontainer .btnsubmit:hover, #container #formcontainer .btnreset:hover {
   cursor: pointer;
   background-color: #599459;
 }
@@ -131,4 +134,4 @@ body {
 #container #formcontainer #profiledescription {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-/*# sourceMappingURL=retoTres.css.map */
+/*# sourceMappingURL=retoCuatro.css.map */
