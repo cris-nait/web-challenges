@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/retoCinco.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <form action="" id="form-container">
-        <fieldset>
-            <label for="name">
-                Nombre
-                <div id="block">
-                    <input type="text" id="name" name="name" placeholder="Nombre" required />
-                    <input type="text" id="surname" name="name" placeholder="Apellidos" required />
-                </div>
-            </label>
-            <label for="email">
-                Nombre de usuario
-                <input type="email" name="email" id="email" placeholder="@gmail.com" required />
-            </label>
-            <label for="password">
-                Contraseña
-                <input type="password" name="password" id="password" required />
-            </label>
-            <label for="confirmpassword">
-                Confirmar tu contraseña
-                <input type="password" name="confirmpassword" id="confirmpassword" required />
-            </label>
-            <label for="birthday">
-                Fecha de nacimiento
-                <input type="date" name="birthday" id="birthday" required>
-            </label>
-            <label for="gender">Sexo
-                <select name="gender" id="gender">
-                    <option value="">Selecciona tu genero</option>
-                    <option value="female">Female</option>
-                    <option value="male">Male</option>
-                </select>
-            </label>
-            <label for="phone">Télefono móvil
-                <input type="number" name="phone" id="phone" pattern="[0-9]{5}[-][0-9]{7}[-][0-9]{1}" required>
-            </label>
-            <label for="location">Ubicación <input type="text" name="location" id="location"
-                    placeholder="España"></label>
+      <fieldset>
+        <label for="name">
+          Nombre
+          <div id="block">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              id="surname"
+              name="name"
+              placeholder="Apellidos"
+              required
+            />
+          </div>
+        </label>
+        <label for="email">
+          Nombre de usuario
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="@gmail.com"
+            required
+          />
+        </label>
+        <label for="password">
+          Contraseña
+          <input type="password" name="password" id="password" required />
+        </label>
+        <label for="confirmpassword">
+          Confirmar tu contraseña
+          <input
+            type="password"
+            name="confirmpassword"
+            id="confirmpassword"
+            required
+          />
+        </label>
+        <label for="birthday">
+          Fecha de nacimiento
+          <input type="date" name="birthday" id="birthday" required />
+        </label>
+        <label for="gender"
+          >Sexo
+          <select name="gender" id="gender">
+            <option value="">Selecciona tu genero</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
+        </label>
+        <label for="phone"
+          >Télefono móvil
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{5,10}"
+            required
+          />
+        </label>
+        <label for="location"
+          >Ubicación
+          <input type="text" name="location" id="location" placeholder="España"
+        /></label>
 
-            <button type="submit" class="btn">Siguiente paso</button>
-
-        </fieldset>
+        <button type="submit" class="btn">Siguiente paso</button>
+      </fieldset>
     </form>
-</body>
-
+  </body>
 </html>

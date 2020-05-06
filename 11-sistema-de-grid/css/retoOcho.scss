@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  height: 100vh;
+  .title {
+    color: white;
+    background-color: darkcyan;
+  }
+  .img-container {
+    img {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid .row {
+  margin: 2rem 0;
+}
+
+.container-fluid .row .item {
+  padding: 1rem;
+  height: 2rem;
+}
+
+.container-fluid .row .item .content {
+  height: 2rem;
+  background-color: #00e0e0;
+}
+/*# sourceMappingURL=retoSeis.css.map */
