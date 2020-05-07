@@ -1,0 +1,52 @@
+body {
+  background: #14d9c4;
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+.boxes {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.boxes .box {
+  background: #d0f7f3;
+  position: relative;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: background ease 0.5s, -webkit-box-shadow ease 1s;
+  transition: background ease 0.5s, -webkit-box-shadow ease 1s;
+  transition: background ease 0.5s, box-shadow ease 1s;
+  transition: background ease 0.5s, box-shadow ease 1s, -webkit-box-shadow ease 1s;
+}
+
+.boxes .box .box__label {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.boxes .box:hover {
+  cursor: pointer;
+  background: white;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+/*# sourceMappingURL=retoDos.css.map */

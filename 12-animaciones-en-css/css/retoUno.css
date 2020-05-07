@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font: 16px arial, sans-serif;
+  background: #414141;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.button {
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 30px;
+  border-radius: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: #8a8a8a;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44);
+  -webkit-transition: ease 0.3s, color ease 1s;
+  transition: ease 0.3s, color ease 1s;
+}
+
+.button:hover {
+  background: #6b8f1a;
+  -webkit-box-shadow: 1px 1px 1px black, inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 1px black, inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+  color: black;
+  background: #9af0ff;
+  -webkit-box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.29), inset 1px 1px 3px rgba(0, 0, 0, 0.8);
+          box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.29), inset 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+/*# sourceMappingURL=retoUno.css.map */
