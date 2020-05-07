@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: normal;
+}
+​.txt-sm {
+  font-size: 14px;
+}
+​.txt-md {
+  font-size: 16px;
+}
+​.txt-lg {
+  font-size: 20px;
+  line-height: 1.6;
+}
+​.txt-xl {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+​// Clases de ayuda para alinear texto
+    ​.txt-center {
+  text-align: center;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-right {
+  text-align: right;
+}
+
+​// Clases de ayuda para cambiar el color de texto​
+    .txt-primary {
+  color: white;
+}
+.txt-light {
+  color: white;
+}
+.txt-dark {
+  color: black;
+}
+
+​​// Clases de ayuda para cambiar el estilo de texto​
+.italic {
+  font-style: italic;
+}
+.light {
+  font-weight: lighter;
+}
+.normal {
+  font-weight: normal;
+}
+.medium {
+  font-weight: medium;
+}
+​// Clases de ayuda para cambiar mayúsculas en el texto​
+    .uppercase {
+  text-transform: uppercase;
+}
