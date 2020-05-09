@@ -1,0 +1,131 @@
+.input-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-size: 16px;
+}
+
+.input-item span {
+  min-width: 20%;
+  text-align: right;
+  margin-right: 20%;
+}
+
+.input-item .input {
+  width: 100%;
+  font-size: 16px;
+  padding: 0.5rem 0;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #b1b0b0;
+}
+
+.input-item .input::-webkit-input-placeholder {
+  color: #b1b0b0;
+}
+
+.input-item .input:-ms-input-placeholder {
+  color: #b1b0b0;
+}
+
+.input-item .input::-ms-input-placeholder {
+  color: #b1b0b0;
+}
+
+.input-item .input::placeholder {
+  color: #b1b0b0;
+}
+
+.input-item .checked-icon {
+  color: #05c46b;
+}
+
+.input-item .error-icon {
+  color: #ff3f34;
+}
+
+.input-item .disabled-icon {
+  color: #b1b0b0;
+}
+
+.input-item .input-default:hover {
+  border-bottom: 1px solid #00ccff;
+}
+
+.input-item .input-default:active {
+  border-bottom: 1px solid #33d6ff;
+}
+
+.input-item .input-default:focus {
+  border-bottom: 1px solid #00a3cc;
+}
+
+.input-item .input-hint {
+  border-bottom: 1px solid #b1b0b0;
+}
+
+.input-item .input-press {
+  border-bottom: 1px solid #33d6ff;
+}
+
+.input-item .input-focus {
+  border-bottom: 1px solid #00a3cc;
+}
+
+.input-item .input-valid {
+  border-bottom: 1px solid #05c46b;
+}
+
+.input-item .input-error {
+  border-bottom: 1px solid #ff3f34;
+}
+
+.input-item .input-disabled {
+  border-bottom: 1px dotted #b1b0b0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  padding: 0 2rem;
+  border: 1px solid #b1b0b0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 70vw;
+  height: 500px;
+  max-width: 600px;
+}
+/*# sourceMappingURL=main.css.map */
